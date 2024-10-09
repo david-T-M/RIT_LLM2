@@ -16,3 +16,11 @@ phi3_pi/
     resultados/
     finales/
 nohup ../../anaconda3/envs/rit/bin/python3 respuestas_Ollama_all_corpus.py > salida.txt &
+
+
+En este experimento usamos un ModelFile para crear el modelo usando phi3:mini, para que podamos solo pasarle las features.
+
+phi3_pi_MF/
+    resultados/
+    finales/
+nohup ../../anaconda3/envs/rit/bin/python3 respuestas_Ollama_all_corpus.py > salida.txt &
